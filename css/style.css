@@ -1,0 +1,30 @@
+body {
+  background: #daf7f6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  color: #3b3b3b;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  padding: 40px 0;
+  font-family: "Montserrat", sans-serif;
+  color: #f16059;
+  font-size: 48px;
+  text-transform: uppercase;
+}
+header img {
+  margin-right: 16px;
+}
+
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
