@@ -63,3 +63,41 @@ main {
   background-image: url("../img/watermelon-salad.jpg");
   background-size: cover;
 }
+
+.recipe h2 {
+  color: #f16059;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+  line-height: 6px;
+}
+
+.time {
+  margin-bottom: 20px;
+  border: 1px solid #3b3b3b;
+  overflow: auto;
+}
+
+.time div {
+  float: left;
+  padding-left: 6px;
+  width: 33.3333%;
+  box-sizing: border-box;
+  text-transform: uppercase;
+}
+
+.time .cook {
+  /* border-width: 0 1px;
+  border-style: solid;
+  border-color: #3b3b3b; */
+  border: 0 1px solid #3b3b3b;
+}
+
+.time-details {
+  display: inline-block;
+}
+.time strong {
+  font-family: "Montserrat", sans-serif;
+}
