@@ -89,10 +89,16 @@ main {
 }
 
 .time .cook {
-  /* border-width: 0 1px;
+  border-width: 0 1px;
   border-style: solid;
-  border-color: #3b3b3b; */
-  border: 0 1px solid #3b3b3b;
+  border-color: #3b3b3b;
+}
+
+.time img {
+  margin-right: 5px;
+  vertical-align: middle;
+  width: 15px;
+  height: auto;
 }
 
 .time-details {
@@ -100,4 +106,42 @@ main {
 }
 .time strong {
   font-family: "Montserrat", sans-serif;
+}
+
+.columns {
+  overflow: auto;
+}
+
+.directions {
+  width: 240px;
+  float: left;
+}
+
+.ingredients {
+  width: 205px;
+  float: left;
+  margin-right: 10px;
+}
+
+.recipe h3 {
+  padding: 5px;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #3b3b3b;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f16059;
+}
+
+.ingredients ul {
+  padding-left: 10px;
+  line-height: 20px;
+  list-style-type: square;
+}
+
+.directions ol {
+  padding-left: 10px;
+  line-height: 20px;
 }
